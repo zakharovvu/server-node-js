@@ -15,7 +15,7 @@ app.get('/dec', function (req, res) {
 });
 app.get('/reset', function (req, res) { 
   data.count = 0;
-  //res.set('Access-Control-Allow-Origin', '*')
+  res.set('Access-Control-Allow-Origin', '*')
   res.send(JSON.stringify(data.count))
 });
 
