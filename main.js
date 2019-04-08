@@ -14,3 +14,4 @@ dec.addEventListener('click', () => {
       .then(response => response.json())
       .then(data => h1.textContent = `Count: ${data}`)
 })
+
