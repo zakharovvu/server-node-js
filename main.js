@@ -1,4 +1,3 @@
-
 const h1 = document.getElementById('h1')
 const inc = document.getElementById('inc')
 const dec = document.getElementById('dec')
